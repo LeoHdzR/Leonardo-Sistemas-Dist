@@ -1,0 +1,37 @@
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 8080   
+# Puerto liberado
+
+ENV ASPNETCORE_URLS=http://+:8080 
+# Variable ambiente puerto en que corre
+
+USER app
+
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG configuration=Release
+WORKDIR /src
+COPY ["FileDownload.csproj","./"]
+# Verificar dependencias
+RUN dotnet restore "FileDownload.csproj"
+# Mover hacia adentro de Docker
+COPY . .
+# Mover carpeta
+WORKDIR "/src/."
+RUN dotnet build "FileDownload.csproj" -c ${configuration} -o /app/build
+# Abrir terminalrun
+
+# Build
+FROM build AS publish
+ARG configuration=Release
+RUN dotnet publish "FileDownload.csproj" -c $configuration -o /app/publish /p:UseAppHost=false
+# Usar FROM como base y crear otra capa
+
+FROM base AS final 
+WORKDIR /app
+
+# Crear la carpeta /tmp y el archivo archivo.txt
+RUN mkdir -p /tmp && echo "Leonardo Hernandez Resendiz" > /tmp/315357Leonardo.txt
+
+COPY --from=publish /app/publish .
+ENTRYPOINT [ "dotnet","FileDownload.dll"]
