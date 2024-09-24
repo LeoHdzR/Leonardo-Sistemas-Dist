@@ -2355,19 +2355,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hiuju\\.nuget\\packages\\": {}
+    "C:\\Users\\MartinLuna\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hiuju\\Documents\\UAQ\\QUINTO PARCIAL\\Sistemas distribuidos\\latest\\Sistemas_Distribuidos\\Sistemas_Distribuidos\\RestApi\\RestApi.csproj",
+      "projectUniqueName": "C:\\Users\\MartinLuna\\Documents\\UAQ\\semestre5\\SistemasDistribuidos\\SistemasDistribui2\\RestApi\\RestApi.csproj",
       "projectName": "RestApi",
-      "projectPath": "C:\\Users\\hiuju\\Documents\\UAQ\\QUINTO PARCIAL\\Sistemas distribuidos\\latest\\Sistemas_Distribuidos\\Sistemas_Distribuidos\\RestApi\\RestApi.csproj",
-      "packagesPath": "C:\\Users\\hiuju\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hiuju\\Documents\\UAQ\\QUINTO PARCIAL\\Sistemas distribuidos\\latest\\Sistemas_Distribuidos\\Sistemas_Distribuidos\\RestApi\\obj\\",
+      "projectPath": "C:\\Users\\MartinLuna\\Documents\\UAQ\\semestre5\\SistemasDistribuidos\\SistemasDistribui2\\RestApi\\RestApi.csproj",
+      "packagesPath": "C:\\Users\\MartinLuna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MartinLuna\\Documents\\UAQ\\semestre5\\SistemasDistribuidos\\SistemasDistribui2\\RestApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hiuju\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\MartinLuna\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2432,7 +2432,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

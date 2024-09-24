@@ -1,10 +1,11 @@
-namespace RestApi.Models;
+using Amazon.SecurityToken.Model;
+
+namespace RespApi.Models;
 
 public class UserModel{
-    public Guid Id { get; set; }
-    public string FirstName { get; set; } = null;
-    public string LastName { get; set; } = null;
-    public string? Email { get; set; }
-    public DateTime BirthDay{ get; set; }
-
+    public Guid Id {get; set;}
+    public string FirstName {get; set;}
+    public string LastName{get; set;}
+    public string Email{get; set;}
+    public DateTime BirthDay{get; set;}
 }
