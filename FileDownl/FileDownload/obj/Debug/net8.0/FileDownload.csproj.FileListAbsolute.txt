@@ -1,0 +1,5 @@
+C:\Users\hiuju\Documents\UAQ\QUINTO PARCIAL\Sistemas distribuidos\Repo git\Leonardo-Sistemas-Dist\FileDownload\obj\Debug\net8.0\FileDownload.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hiuju\Documents\UAQ\QUINTO PARCIAL\Sistemas distribuidos\Repo git\Leonardo-Sistemas-Dist\FileDownload\obj\Debug\net8.0\FileDownload.AssemblyInfoInputs.cache
+C:\Users\hiuju\Documents\UAQ\QUINTO PARCIAL\Sistemas distribuidos\Repo git\Leonardo-Sistemas-Dist\FileDownload\obj\Debug\net8.0\FileDownload.AssemblyInfo.cs
+C:\Users\hiuju\Documents\UAQ\QUINTO PARCIAL\Sistemas distribuidos\Repo git\Leonardo-Sistemas-Dist\FileDownload\obj\Debug\net8.0\FileDownload.csproj.CoreCompileInputs.cache
+C:\Users\hiuju\Documents\UAQ\QUINTO PARCIAL\Sistemas distribuidos\Repo git\Leonardo-Sistemas-Dist\FileDownload\obj\Debug\net8.0\FileDownload.sourcelink.json
